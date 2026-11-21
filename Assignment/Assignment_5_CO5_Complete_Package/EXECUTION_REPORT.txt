@@ -1,0 +1,141 @@
+ASSIGNMENT 5 – CO5 EXECUTION REPORT
+Compiler: g++ (Debian 14.2.0-19) 14.2.0
+Platform: Linux-6.18.57-x86_64-with-glibc2.41
+
+========================================================================
+Task01/polymorphic_hierarchy.cpp
+Command: g++ -std=c++17 -Wall -Wextra /mnt/data/Assignment_5_CO5_Package/Task01/polymorphic_hierarchy.cpp -o /mnt/data/Assignment_5_CO5_Package/Task01/polymorphic_hierarchy
+Compile return code: 0
+Run return code: 0
+Output:
+OP Ravi: 1700
+IP Meena: 49000
+DAYCARE Arun: 18000
+EMERGENCY Sara: 6500
+Day total: 75200
+
+========================================================================
+Task02/runtime_binding_predict.cpp
+Command: g++ -std=c++17 -Wall -Wextra /mnt/data/Assignment_5_CO5_Package/Task02/runtime_binding_predict.cpp -o /mnt/data/Assignment_5_CO5_Package/Task02/runtime_binding_predict
+Compile return code: 0
+Run return code: 0
+Output:
+500 ~OPBill ~Bill 
+
+========================================================================
+Task02/nonvirtual_destructor_demo.cpp
+Command: g++ -std=c++17 -Wall -Wextra /mnt/data/Assignment_5_CO5_Package/Task02/nonvirtual_destructor_demo.cpp -o /mnt/data/Assignment_5_CO5_Package/Task02/nonvirtual_destructor_demo
+Compile return code: 0
+Compiler diagnostics:
+/mnt/data/Assignment_5_CO5_Package/Task02/nonvirtual_destructor_demo.cpp: In function ‘int main()’:
+/mnt/data/Assignment_5_CO5_Package/Task02/nonvirtual_destructor_demo.cpp:4:37: warning: deleting object of polymorphic class type ‘Base’ which has non-virtual destructor might cause undefined behavior [-Wdelete-non-virtual-dtor]
+    4 | int main() { Base* p = new Derived; delete p; std::cout << '\n'; }
+      |                                     ^~~~~~~~
+Run return code: 0
+Output:
+~Base 
+
+========================================================================
+Task03/payer_design.cpp
+Command: g++ -std=c++17 -Wall -Wextra /mnt/data/Assignment_5_CO5_Package/Task03/payer_design.cpp -o /mnt/data/Assignment_5_CO5_Package/Task03/payer_design
+Compile return code: 0
+Run return code: 0
+Output:
+SelfPay covers 0
+Insurance covers 36000
+GovernmentScheme covers 30000
+CorporateTieUp covers 35000
+
+========================================================================
+Task04/exception_strategy.cpp
+Command: g++ -std=c++17 -Wall -Wextra /mnt/data/Assignment_5_CO5_Package/Task04/exception_strategy.cpp -o /mnt/data/Assignment_5_CO5_Package/Task04/exception_strategy
+Compile return code: 0
+Run return code: 0
+Output:
+billing error: negative charge
+user message: claim exceeds cover
+Stderr:
+audit: claim exceeds cover
+
+========================================================================
+Task05/raii_rethrow.cpp
+Command: g++ -std=c++17 -Wall -Wextra /mnt/data/Assignment_5_CO5_Package/Task05/raii_rethrow.cpp -o /mnt/data/Assignment_5_CO5_Package/Task05/raii_rethrow
+Compile return code: 0
+Run return code: 0
+Output:
+~f ~main caught 42
+
+========================================================================
+Task06/b1_complete_code.cpp
+Command: g++ -std=c++17 -Wall -Wextra /mnt/data/Assignment_5_CO5_Package/Task06/b1_complete_code.cpp -o /mnt/data/Assignment_5_CO5_Package/Task06/b1_complete_code
+Compile return code: 0
+Run return code: 0
+Output:
+OP Ravi: 1700
+IP Meena: 47500
+Total 49200
+
+========================================================================
+Task07/b2_error_conditions.cpp
+Command: g++ -std=c++17 -Wall -Wextra /mnt/data/Assignment_5_CO5_Package/Task07/b2_error_conditions.cpp -o /mnt/data/Assignment_5_CO5_Package/Task07/b2_error_conditions
+Compile return code: 0
+Run return code: 0
+Output:
+ok done caught negative [log too large] caught too large 
+approved 40000
+approved audit: exceeds cover
+claim rejected: exceeds cover
+approved error: negative amount
+Tracked destroyed
+allocation request failed safely: std::bad_alloc
+
+========================================================================
+Task08/b3_benchmark.cpp
+Command: g++ -std=c++17 -O2 -Wall -Wextra /mnt/data/Assignment_5_CO5_Package/Task08/b3_benchmark.cpp -o /mnt/data/Assignment_5_CO5_Package/Task08/b3_benchmark
+Compile return code: 0
+Run return code: 0
+Output:
+n=1000 virtual_s=3.133e-06 switch_s=1.392e-06 variant_s=1.552e-06 totals=0
+n=1000000 virtual_s=0.00791361 switch_s=0.0052539 variant_s=0.00600333 totals=0
+n=10000000 virtual_s=0.0707196 switch_s=0.0500212 variant_s=0.0724187 totals=0
+invalid=0% return_s=0.00105613 exception_s=0.000698587
+invalid=1% return_s=0.000239717 exception_s=0.0125067
+invalid=50% return_s=0.000237585 exception_s=0.658097
+sizeof(SwitchBill)=32 sizeof(VariantBill)=32 sizeof(VirtualBill*)=8
+
+========================================================================
+Task09/b4_extension.cpp
+Command: g++ -std=c++17 -Wall -Wextra /mnt/data/Assignment_5_CO5_Package/Task09/b4_extension.cpp -o /mnt/data/Assignment_5_CO5_Package/Task09/b4_extension
+Compile return code: 0
+Run return code: 0
+Output:
+OP total=1500
+  SelfPay covers 0
+  EmployeeBenefit covers 1200
+IP total=9000
+  SelfPay covers 0
+  EmployeeBenefit covers 7200
+TELEMEDICINE total=800
+  SelfPay covers 0
+  EmployeeBenefit covers 640
+
+
+
+CORRECTED B3 BENCHMARK (recompiled after adding aggregate-total agreement check)
+Command: g++ -std=c++17 -O2 -Wall -Wextra Task08/b3_benchmark.cpp -o Task08/b3_benchmark
+n=1000 virtual_s=2.821e-06 switch_s=8.91e-07 variant_s=1.233e-06 totals=0
+n=1000000 virtual_s=0.00746833 switch_s=0.00541072 variant_s=0.00586764 totals=0
+n=10000000 virtual_s=0.109087 switch_s=0.0842407 variant_s=0.108273 totals=0
+invalid=0% return_s=0.000500622 exception_s=0.000374682
+invalid=1% return_s=0.000710213 exception_s=0.0188501
+invalid=50% return_s=0.000359068 exception_s=0.597551
+sizeof(SwitchBill)=32 sizeof(VariantBill)=32 sizeof(VirtualBill*)=8
+
+B3 corrected aggregate checks:
+n=1000 virtual_s=2.867e-06 switch_s=2.787e-06 variant_s=2.745e-06 totals=135000,135000,135000 agree=yes
+n=1000000 virtual_s=0.00652995 switch_s=0.00461538 variant_s=0.00651526 totals=1.35e+08,1.35e+08,1.35e+08 agree=yes
+n=10000000 virtual_s=0.0481183 switch_s=0.0415545 variant_s=0.0652428 totals=1.35e+09,1.35e+09,1.35e+09 agree=yes
+invalid=0% return_s=0.000409542 exception_s=0.000426935
+invalid=1% return_s=0.000321507 exception_s=0.0101322
+invalid=50% return_s=0.000466 exception_s=0.532306
+sizeof(SwitchBill)=32 sizeof(VariantBill)=32 sizeof(VirtualBill*)=8

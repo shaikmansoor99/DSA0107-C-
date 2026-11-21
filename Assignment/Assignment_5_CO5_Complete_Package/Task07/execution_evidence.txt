@@ -1,0 +1,7 @@
+ok done caught negative [log too large] caught too large 
+approved 40000
+approved audit: exceeds cover
+claim rejected: exceeds cover
+approved error: negative amount
+Tracked destroyed
+allocation request failed safely: std::bad_alloc

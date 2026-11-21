@@ -1,0 +1,7 @@
+n=1000 virtual_s=2.867e-06 switch_s=2.787e-06 variant_s=2.745e-06 totals=135000,135000,135000 agree=yes
+n=1000000 virtual_s=0.00652995 switch_s=0.00461538 variant_s=0.00651526 totals=1.35e+08,1.35e+08,1.35e+08 agree=yes
+n=10000000 virtual_s=0.0481183 switch_s=0.0415545 variant_s=0.0652428 totals=1.35e+09,1.35e+09,1.35e+09 agree=yes
+invalid=0% return_s=0.000409542 exception_s=0.000426935
+invalid=1% return_s=0.000321507 exception_s=0.0101322
+invalid=50% return_s=0.000466 exception_s=0.532306
+sizeof(SwitchBill)=32 sizeof(VariantBill)=32 sizeof(VirtualBill*)=8

@@ -1,0 +1,9 @@
+OP total=1500
+  SelfPay covers 0
+  EmployeeBenefit covers 1200
+IP total=9000
+  SelfPay covers 0
+  EmployeeBenefit covers 7200
+TELEMEDICINE total=800
+  SelfPay covers 0
+  EmployeeBenefit covers 640

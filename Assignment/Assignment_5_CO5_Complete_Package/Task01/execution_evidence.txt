@@ -1,0 +1,5 @@
+OP Ravi: 1700
+IP Meena: 49000
+DAYCARE Arun: 18000
+EMERGENCY Sara: 6500
+Day total: 75200

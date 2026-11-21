@@ -1,0 +1,4 @@
+500 ~OPBill ~Bill 
+
+Non-virtual destructor demo (undefined behavior; observed only):
+~Base 
