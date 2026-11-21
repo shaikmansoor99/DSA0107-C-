@@ -1,0 +1,8 @@
+Compile command: g++ -std=c++17 -Wall -Wextra Q6.cpp -o program
+Observed output:
+205 false
+20 true
+0 false
+
+Compiler diagnostics:
+None

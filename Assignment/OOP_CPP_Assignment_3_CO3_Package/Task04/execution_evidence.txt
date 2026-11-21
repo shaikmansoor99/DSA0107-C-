@@ -1,0 +1,13 @@
+Compile: g++ -std=c++17 -Wall -Wextra Q4.cpp -o program
+Compile exit: 0
+Compiler diagnostics:
+None
+Run exit: 0
+Observed output:
+Rs 200.00
+true
+Carry: Rs 1.25
+Negative subtraction: -Rs 1.00
+Bill total: Rs 300.00
+
+Add your own terminal screenshot after rerunning locally.

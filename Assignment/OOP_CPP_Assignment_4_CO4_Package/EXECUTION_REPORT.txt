@@ -1,0 +1,100 @@
+EXECUTION REPORT – ASSIGNMENT 4 CO4
+g++ (Debian 14.2.0-19) 14.2.0
+Compile flags: -std=c++17 -Wall -Wextra
+
+===== Task01/Q1.cpp =====
+Compile exit: 0
+No compiler diagnostics.
+Run exit: 0
+Anita (101) pay=Rs 79000
+Bala (102) pay=Rs 42600
+Charan (103) guest pay=Rs 36000
+
+
+
+===== Task02/Q2.cpp =====
+Compile exit: 0
+No compiler diagnostics.
+Run exit: 0
+Person Student Staff TA 
+Mira | 12 | BTech AI | CSE | 8.6 | 45000
+Dev fellowship=Rs 25000
+sizeof(Person)=80 sizeof(TA)=176
+
+
+
+===== Task03/Q3.cpp =====
+Compile exit: 0
+No compiler diagnostics.
+Run exit: 0
+Student lifetime: Address+ Person+ Course+ Student+ 192311001 Kavya (19) Salem-636001 C++
+Student- Course- Person- Address- 
+TA lifetime: Address+ Person+ Course+ Student+ Staff+ TA+ TA- Staff- Student- Course- Person- Address- 
+
+
+
+===== Task03/predict_order.cpp =====
+Compile exit: 0
+No compiler diagnostics.
+Run exit: 0
+Vehicle Engine Car | ~Car ~Engine ~Vehicle 
+
+
+
+===== Task03/complete_code.cpp =====
+Compile exit: 0
+No compiler diagnostics.
+Run exit: 0
+192311001 Kavya (19) Salem-636001
+
+
+
+===== Task04/Q4.cpp =====
+Compile exit: 0
+No compiler diagnostics.
+Run exit: 0
+Account rate=3.5
+SeniorAccount rate=4
+rates: 3.5 4 
+Destroying polymorphic accounts: ~Account ~SeniorAccount ~Account 
+Slicing demonstration: 3.5 (base part only)
+~Account ~SeniorAccount ~Account 
+
+
+===== Task04/predict_virtual.cpp =====
+Compile exit: 0
+No compiler diagnostics.
+Run exit: 0
+3.5 4 3.5
+
+
+
+===== Task05/Q5.cpp =====
+Compile exit: 0
+No compiler diagnostics.
+Run exit: 0
+324.00
+Highest cart total: 324.00
+
+
+
+===== Task06/Q6.cpp =====
+Compile exit: 0
+No compiler diagnostics.
+Run exit: 0
+Bicycle B-101 daily=Rs 100 status=Rented
+Charge for 2 days: Rs 200
+TwoWheeler T-202 daily=Rs 250 status=Rented
+Charge for 2 days: Rs 550
+Car C-303 daily=Rs 1200 status=Rented
+Charge for 2 days: Rs 2500
+ElectricCar E-404 daily=Rs 1500 status=Rented
+Charge for 2 days: Rs 3120
+ElectricBus EB-505 daily=Rs 3000 status=Rented
+Charge for 2 days: Rs 6560
+Late return charge (2 late days) for first vehicle: Rs 300
+Bicycle B-101 daily=Rs 100 status=Available
+TwoWheeler T-202 daily=Rs 250 status=Available
+Car C-303 daily=Rs 1200 status=Available
+ElectricCar E-404 daily=Rs 1500 status=Available
+ElectricBus EB-505 daily=Rs 3000 status=Available

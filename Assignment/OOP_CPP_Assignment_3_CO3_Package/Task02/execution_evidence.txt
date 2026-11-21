@@ -1,0 +1,11 @@
+Compile: g++ -std=c++17 -Wall -Wextra Q2.cpp -o program
+Compile exit: 0
+Compiler diagnostics:
+None
+Run exit: 0
+Observed output:
+[copy constructor] Ibuprofen ORS | Paracetamol Cetirizine | Paracetamol ORS
+[copy constructor] by value size 2
+by const reference size 2
+
+Add your own terminal screenshot after rerunning locally.

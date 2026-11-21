@@ -1,0 +1,16 @@
+Compiler: g++ (Debian 14.2.0-19) 14.2.0
+Command: g++ -std=c++17 -Wall -Wextra task09.cpp -o task09
+Compiler diagnostics: (none)
+Program output:
+Inner 7 expected 1000 actual 1000 PASS
+Inner 8 expected 1200 actual 1200 PASS
+Middle 10 expected 2000 actual 2000 PASS
+Middle 17 expected 2400 actual 2400 PASS
+Outer 19 expected 3600 actual 3600 PASS
+Outer 20 expected 3000 actual 3000 PASS
+Unknown 12 expected -1 actual -1 PASS
+Exact Rs 50 remaining accepted: true
+Negative recharge rejected: true
+Letters rejected as hour: true
+Five-journey total paise: 10200 (Rs 102.00)
+All fare test cases passed: true

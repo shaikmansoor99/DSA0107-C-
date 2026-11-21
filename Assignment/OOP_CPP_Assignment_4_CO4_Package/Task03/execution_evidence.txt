@@ -1,0 +1,11 @@
+Compile command: g++ -std=c++17 -Wall -Wextra Q3.cpp -o program
+Compile exit: 0
+Diagnostics:
+None
+Run exit: 0
+Observed output:
+Student lifetime: Address+ Person+ Course+ Student+ 192311001 Kavya (19) Salem-636001 C++
+Student- Course- Person- Address- 
+TA lifetime: Address+ Person+ Course+ Student+ Staff+ TA+ TA- Staff- Student- Course- Person- Address- 
+
+Add a screenshot after rerunning locally.

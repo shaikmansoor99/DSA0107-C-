@@ -1,0 +1,11 @@
+Compile command: g++ -std=c++17 -Wall -Wextra Q3.cpp -o program
+Observed output:
+charge(2) = 40.024
+charge(2.0f) = 64
+charge(2.0) = 64
+charge(2, true) = 89
+charge(2.0, true, true) = 104
+charge(Parcel) = 73
+
+Compiler diagnostics:
+None

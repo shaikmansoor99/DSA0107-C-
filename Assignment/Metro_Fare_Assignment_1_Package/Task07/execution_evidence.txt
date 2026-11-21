@@ -1,0 +1,12 @@
+Compiler: g++ (Debian 14.2.0-19) 14.2.0
+Command: g++ -std=c++17 -Wall -Wextra task07.cpp -o task07
+Status: PASS
+
+Compiler diagnostics:
+(none)
+Program output:
+Procedural accepted: true, balance paise: 6400
+OOP accepted: true, balance paise: 6400
+
+Runtime diagnostics:
+(none)

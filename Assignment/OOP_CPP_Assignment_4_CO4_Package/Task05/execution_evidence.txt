@@ -1,0 +1,10 @@
+Compile command: g++ -std=c++17 -Wall -Wextra Q5.cpp -o program
+Compile exit: 0
+Diagnostics:
+None
+Run exit: 0
+Observed output:
+324.00
+Highest cart total: 324.00
+
+Add a screenshot after rerunning locally.

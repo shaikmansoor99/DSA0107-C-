@@ -1,0 +1,12 @@
+Compile: g++ -std=c++17 -Wall -Wextra Q1.cpp -o program
+Compile exit: 0
+Compiler diagnostics:
+None
+Run exit: 0
+Observed output:
+Title: Untitled, Author: Unknown, Copies: 0
+Title: The Alchemist, Author: Donated copy, Copies: 1
+Title: 1984, Author: George Orwell, Copies: 5
+Rejected: copies cannot be negative
+
+Add your own terminal screenshot after rerunning locally.

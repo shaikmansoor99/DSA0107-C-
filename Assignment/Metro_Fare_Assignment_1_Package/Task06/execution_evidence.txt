@@ -1,0 +1,13 @@
+Compiler: g++ (Debian 14.2.0-19) 14.2.0
+Command: g++ -std=c++17 -Wall -Wextra task06.cpp -o task06
+Status: PASS
+
+Compiler diagnostics:
+(none)
+Program output:
+Fare Rs 10.00 balance Rs 90
+Fare Rs 36.00 balance Rs 54
+Denied (low balance) balance Rs 54
+
+Runtime diagnostics:
+(none)

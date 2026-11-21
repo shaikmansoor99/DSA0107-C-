@@ -1,0 +1,130 @@
+EXECUTION REPORT – ASSIGNMENT 3 CO3
+g++ (Debian 14.2.0-19) 14.2.0
+Flags: -std=c++17 -Wall -Wextra
+
+===== Task01/Q1.cpp =====
+Compile exit: 0
+No compiler diagnostics.
+Run exit: 0
+Title: Untitled, Author: Unknown, Copies: 0
+Title: The Alchemist, Author: Donated copy, Copies: 1
+Title: 1984, Author: George Orwell, Copies: 5
+Rejected: copies cannot be negative
+
+
+
+===== Task02/Q2.cpp =====
+Compile exit: 0
+No compiler diagnostics.
+Run exit: 0
+[copy constructor] Ibuprofen ORS | Paracetamol Cetirizine | Paracetamol ORS
+[copy constructor] by value size 2
+by const reference size 2
+
+
+
+===== Task03/Q3.cpp =====
+Compile exit: 0
+No compiler diagnostics.
+Run exit: 0
+Created 2x3
+Created 1x2
+Closed event; booked seats=1
+Created 1x1
+Closed event; booked seats=1
+Closed event; booked seats=0
+Closed event; booked seats=1
+
+
+
+===== Task03/logger_prediction.cpp =====
+Compile exit: 0
+No compiler diagnostics.
+Run exit: 0
++A +B -B copyAc use -Ac +P -P end -A 
+
+
+===== Task04/Q4.cpp =====
+Compile exit: 0
+No compiler diagnostics.
+Run exit: 0
+Rs 200.00
+true
+Carry: Rs 1.25
+Negative subtraction: -Rs 1.00
+Bill total: Rs 300.00
+
+
+
+===== Task05/Q5.cpp =====
+Compile exit: 0
+No compiler diagnostics.
+Run exit: 0
+0:00:05 0:00:07 0:00:07
+Rollover: 1:00:00
+Track One
+Range error: playlist index
+Const access: Track Two
+
+
+
+===== Task06/Q6.cpp =====
+Compile exit: 0
+No compiler diagnostics.
+Run exit: 0
+
+Hello World
+Empty: []
+[copy] Independent copy: A longer SMS message for testing
+true true
+
+
+
+===== Task07/Q7.cpp =====
+Compile exit: 0
+No compiler diagnostics.
+Run exit: 0
+R = 10 + 0j
+L = 0 + 31.4159j
+C = 0 - 31.831j
+Series impedance = 10 - 0.415062j, magnitude = 10.0086
+Parallel impedance = 7.28982 + 1.84735j, magnitude = 7.52025
+Safe error: division by zero impedance
+
+
+
+===== AddressSanitizer attempts =====
+Task02/Q2.cpp
+exit=1
+
+==2397==ASan runtime does not come first in initial library list; you should either link runtime to your application or manually preload it with LD_PRELOAD.
+
+
+Task03/Q3.cpp
+exit=1
+
+==2408==ASan runtime does not come first in initial library list; you should either link runtime to your application or manually preload it with LD_PRELOAD.
+
+
+Task06/Q6.cpp
+exit=1
+
+==2419==ASan runtime does not come first in initial library list; you should either link runtime to your application or manually preload it with LD_PRELOAD.
+
+
+Task07/Q7.cpp
+exit=1
+
+==2430==ASan runtime does not come first in initial library list; you should either link runtime to your application or manually preload it with LD_PRELOAD.
+
+
+===== Q5 increment benchmark =====
+-O0
+prefix_ms=22.354
+postfix_ms=18.8265
+
+-O2
+prefix_ms=0.000181
+postfix_ms=3.3e-05
+
+NOTE: ASan could not initialise in this execution environment; do not report these attempts as clean sanitizer passes.

@@ -1,0 +1,12 @@
+Compile command: g++ -std=c++17 -Wall -Wextra Q2.cpp -o program
+Compile exit: 0
+Diagnostics:
+None
+Run exit: 0
+Observed output:
+Person Student Staff TA 
+Mira | 12 | BTech AI | CSE | 8.6 | 45000
+Dev fellowship=Rs 25000
+sizeof(Person)=80 sizeof(TA)=176
+
+Add a screenshot after rerunning locally.

@@ -1,0 +1,121 @@
+EXECUTION REPORT – OOP WITH C++ ASSIGNMENT 2 (CO2)
+g++ (Debian 14.2.0-19) 14.2.0
+Compile flags: -std=c++17 -Wall -Wextra
+
+===== Task01/Q1.cpp =====
+Compile exit code: 0
+Compiler: no diagnostics.
+Run exit code: 0
+1 12 13
+1 100
+16 13 6 
+after call by value	: 45000
+after call by reference: 40500
+
+
+===== Task02/Q2.cpp =====
+Compile exit code: 0
+/mnt/data/OOP_CPP_Assignment_2_CO2/Task02/Q2.cpp: In function ‘int& danglingReference()’:
+/mnt/data/OOP_CPP_Assignment_2_CO2/Task02/Q2.cpp:44:12: warning: reference to local variable ‘local’ returned [-Wreturn-local-addr]
+   44 |     return local;
+      |            ^~~~~
+/mnt/data/OOP_CPP_Assignment_2_CO2/Task02/Q2.cpp:43:9: note: declared here
+   43 |     int local = 99;
+      |         ^~~~~
+
+Run exit code: 0
+Highest before moderation: 91
+Highest after moderation: 93
+Read-only highest: 93
+Copy of highest: 93
+Index: 1, value: 93
+After pointer update: 94
+Vector size after growth: 4
+
+
+===== Task03/Q3.cpp =====
+Compile exit code: 0
+Compiler: no diagnostics.
+Run exit code: 0
+charge(2) = 40.024
+charge(2.0f) = 64
+charge(2.0) = 64
+charge(2, true) = 89
+charge(2.0, true, true) = 104
+charge(Parcel) = 73
+
+
+===== Task04/Q4.cpp =====
+Compile exit code: 0
+Compiler: no diagnostics.
+Run exit code: 0
+Mini-statement for SA1024
+Deposit: +100 paise
+Deposit: +200 paise
+Deposit: +300 paise
+Deposit: +400 paise
+Deposit: +500 paise
+Deposit: +600 paise
+Deposit: +700 paise
+Deposit: +800 paise
+Deposit: +900 paise
+Deposit: +1000 paise
+Balance: 98500 paise
+
+
+===== Task05/Q5.cpp =====
+Compile exit code: 0
+Compiler: no diagnostics.
+Run exit code: 0
+101 103 104 4
+Asha: Seat 1
+Bala: Seat 2
+Chitra: Seat 3
+Dev: Waiting
+Issued: 3
+Esha: Waiting
+Farhan: Waiting
+Issued after second function call: 3
+Esha: Waiting
+Farhan: Waiting
+Issued after another function call: 3
+
+
+===== Task06/Q6.cpp =====
+Compile exit code: 0
+Compiler: no diagnostics.
+Run exit code: 0
+205 false
+20 true
+0 false
+
+
+===== Task07/Q7_redesign.cpp =====
+Compile exit code: 0
+Compiler: no diagnostics.
+Run exit code: 0
+Shift checksum: 99998725
+Circular checksum: 99998725
+Shift add total ms: 422.338
+Circular add total ms: 18.3361
+
+
+===== Q2_warning =====
+Warning compile exit code: 0
+/mnt/data/OOP_CPP_Assignment_2_CO2/Task02/Q2.cpp: In function ‘int& danglingReference()’:
+/mnt/data/OOP_CPP_Assignment_2_CO2/Task02/Q2.cpp:44:12: warning: reference to local variable ‘local’ returned [-Wreturn-local-addr]
+   44 |     return local;
+      |            ^~~~~
+/mnt/data/OOP_CPP_Assignment_2_CO2/Task02/Q2.cpp:43:9: note: declared here
+   43 |     int local = 99;
+      |         ^~~~~
+
+
+===== inline_-O0 =====
+inline_ms=46.2971
+normal_ms=47.7324
+
+
+===== inline_-O2 =====
+inline_ms=7.57139
+normal_ms=8.17832

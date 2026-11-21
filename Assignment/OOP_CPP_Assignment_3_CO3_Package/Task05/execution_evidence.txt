@@ -1,0 +1,13 @@
+Compile: g++ -std=c++17 -Wall -Wextra Q5.cpp -o program
+Compile exit: 0
+Compiler diagnostics:
+None
+Run exit: 0
+Observed output:
+0:00:05 0:00:07 0:00:07
+Rollover: 1:00:00
+Track One
+Range error: playlist index
+Const access: Track Two
+
+Add your own terminal screenshot after rerunning locally.

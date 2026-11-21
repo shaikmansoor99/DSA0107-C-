@@ -1,0 +1,9 @@
+Compile command: g++ -std=c++17 -Wall -Wextra Q7_redesign.cpp -o program
+Observed output:
+Shift checksum: 99998725
+Circular checksum: 99998725
+Shift add total ms: 422.338
+Circular add total ms: 18.3361
+
+Compiler diagnostics:
+None

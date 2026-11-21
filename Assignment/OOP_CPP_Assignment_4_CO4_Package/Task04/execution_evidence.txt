@@ -1,0 +1,13 @@
+Compile command: g++ -std=c++17 -Wall -Wextra Q4.cpp -o program
+Compile exit: 0
+Diagnostics:
+None
+Run exit: 0
+Observed output:
+Account rate=3.5
+SeniorAccount rate=4
+rates: 3.5 4 
+Destroying polymorphic accounts: ~Account ~SeniorAccount ~Account 
+Slicing demonstration: 3.5 (base part only)
+~Account ~SeniorAccount ~Account 
+Add a screenshot after rerunning locally.

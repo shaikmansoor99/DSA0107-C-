@@ -1,0 +1,13 @@
+Compile: g++ -std=c++17 -Wall -Wextra Q6.cpp -o program
+Compile exit: 0
+Compiler diagnostics:
+None
+Run exit: 0
+Observed output:
+
+Hello World
+Empty: []
+[copy] Independent copy: A longer SMS message for testing
+true true
+
+Add your own terminal screenshot after rerunning locally.

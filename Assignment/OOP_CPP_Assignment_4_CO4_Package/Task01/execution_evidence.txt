@@ -1,0 +1,11 @@
+Compile command: g++ -std=c++17 -Wall -Wextra Q1.cpp -o program
+Compile exit: 0
+Diagnostics:
+None
+Run exit: 0
+Observed output:
+Anita (101) pay=Rs 79000
+Bala (102) pay=Rs 42600
+Charan (103) guest pay=Rs 36000
+
+Add a screenshot after rerunning locally.

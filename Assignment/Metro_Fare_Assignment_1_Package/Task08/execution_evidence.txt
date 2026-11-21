@@ -1,0 +1,16 @@
+Compiler: g++ (Debian 14.2.0-19) 14.2.0
+Compile command: g++ -std=c++17 -Wall -Wextra task08.cpp -o task08
+Compiler diagnostics: (none)
+
+Valid input test (stdin: 8):
+Enter hour (0-23): Peak: true
+Fare: Rs 36.00
+
+Exit code: 0
+
+Invalid-input recovery test (stdin: eight then 8):
+Enter hour (0-23): Invalid numeric input. Try again.
+Enter hour (0-23): Peak: true
+Fare: Rs 36.00
+
+Exit code: 0

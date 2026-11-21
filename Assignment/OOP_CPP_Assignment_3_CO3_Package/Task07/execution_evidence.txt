@@ -1,0 +1,14 @@
+Compile: g++ -std=c++17 -Wall -Wextra Q7.cpp -o program
+Compile exit: 0
+Compiler diagnostics:
+None
+Run exit: 0
+Observed output:
+R = 10 + 0j
+L = 0 + 31.4159j
+C = 0 - 31.831j
+Series impedance = 10 - 0.415062j, magnitude = 10.0086
+Parallel impedance = 7.28982 + 1.84735j, magnitude = 7.52025
+Safe error: division by zero impedance
+
+Add your own terminal screenshot after rerunning locally.

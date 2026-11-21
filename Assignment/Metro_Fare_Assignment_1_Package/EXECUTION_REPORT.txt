@@ -1,0 +1,69 @@
+Compiler: g++ (Debian 14.2.0-19) 14.2.0
+Build command: g++ -std=c++17 -Wall -Wextra <source.cpp> -o <program>
+
+===== TASK 6 : PASS =====
+Compiler diagnostics:
+(none)
+Program output:
+Fare Rs 10.00 balance Rs 90
+Fare Rs 36.00 balance Rs 54
+Denied (low balance) balance Rs 54
+
+Runtime diagnostics:
+(none)
+
+===== TASK 7 : PASS =====
+Compiler diagnostics:
+(none)
+Program output:
+Procedural accepted: true, balance paise: 6400
+OOP accepted: true, balance paise: 6400
+
+Runtime diagnostics:
+(none)
+
+===== TASK 8 : PASS (interactive tests) =====
+Compiler diagnostics:
+(none)
+Valid input 8:
+Enter hour (0-23): Peak: true
+Fare: Rs 36.00
+Invalid input 'eight' followed by 8:
+Enter hour (0-23): Invalid numeric input. Try again.
+Enter hour (0-23): Peak: true
+Fare: Rs 36.00
+Runtime diagnostics:
+(none)
+
+===== TASK 9 : PASS =====
+Compiler diagnostics:
+(none)
+Program output:
+Inner 7 expected 1000 actual 1000 PASS
+Inner 8 expected 1200 actual 1200 PASS
+Middle 10 expected 2000 actual 2000 PASS
+Middle 17 expected 2400 actual 2400 PASS
+Outer 19 expected 3600 actual 3600 PASS
+Outer 20 expected 3000 actual 3000 PASS
+Unknown 12 expected -1 actual -1 PASS
+Exact Rs 50 remaining accepted: true
+Negative recharge rejected: true
+Five-journey total paise: 10200 (Rs 102.00)
+All fare test cases passed: true
+
+Runtime diagnostics:
+(none)
+
+===== TASK 12 : PASS =====
+Compiler diagnostics:
+(none)
+Program output:
+Airport off-peak: 6000 paise
+Airport peak: 7200 paise
+Airport weekend at peak hour: 5400 paise
+Covered Middle accepted: true, balance: 10000
+Uncovered Airport accepted: false, balance: 10000
+
+Runtime diagnostics:
+(none)
+

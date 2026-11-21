@@ -1,0 +1,15 @@
+Compile: g++ -std=c++17 -Wall -Wextra Q3.cpp -o program
+Compile exit: 0
+Compiler diagnostics:
+None
+Run exit: 0
+Observed output:
+Created 2x3
+Created 1x2
+Closed event; booked seats=1
+Created 1x1
+Closed event; booked seats=1
+Closed event; booked seats=0
+Closed event; booked seats=1
+
+Add your own terminal screenshot after rerunning locally.

@@ -1,0 +1,17 @@
+Compile command: g++ -std=c++17 -Wall -Wextra Q4.cpp -o program
+Observed output:
+Mini-statement for SA1024
+Deposit: +100 paise
+Deposit: +200 paise
+Deposit: +300 paise
+Deposit: +400 paise
+Deposit: +500 paise
+Deposit: +600 paise
+Deposit: +700 paise
+Deposit: +800 paise
+Deposit: +900 paise
+Deposit: +1000 paise
+Balance: 98500 paise
+
+Compiler diagnostics:
+None

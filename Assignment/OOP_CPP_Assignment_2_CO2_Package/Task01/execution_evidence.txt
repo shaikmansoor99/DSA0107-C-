@@ -1,0 +1,10 @@
+Compile command: g++ -std=c++17 -Wall -Wextra Q1.cpp -o program
+Observed output:
+1 12 13
+1 100
+16 13 6 
+after call by value	: 45000
+after call by reference: 40500
+
+Compiler diagnostics:
+None

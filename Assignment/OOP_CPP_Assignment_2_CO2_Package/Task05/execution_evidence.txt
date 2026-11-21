@@ -1,0 +1,17 @@
+Compile command: g++ -std=c++17 -Wall -Wextra Q5.cpp -o program
+Observed output:
+101 103 104 4
+Asha: Seat 1
+Bala: Seat 2
+Chitra: Seat 3
+Dev: Waiting
+Issued: 3
+Esha: Waiting
+Farhan: Waiting
+Issued after second function call: 3
+Esha: Waiting
+Farhan: Waiting
+Issued after another function call: 3
+
+Compiler diagnostics:
+None

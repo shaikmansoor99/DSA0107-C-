@@ -1,0 +1,15 @@
+Compiler: g++ (Debian 14.2.0-19) 14.2.0
+Command: g++ -std=c++17 -Wall -Wextra task12.cpp -o task12
+Status: PASS
+
+Compiler diagnostics:
+(none)
+Program output:
+Airport off-peak: 6000 paise
+Airport peak: 7200 paise
+Airport weekend at peak hour: 5400 paise
+Covered Middle accepted: true, balance: 10000
+Uncovered Airport accepted: false, balance: 10000
+
+Runtime diagnostics:
+(none)

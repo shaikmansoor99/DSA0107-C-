@@ -1,0 +1,18 @@
+Compile command: g++ -std=c++17 -Wall -Wextra Q2.cpp -o program
+Observed output:
+Highest before moderation: 91
+Highest after moderation: 93
+Read-only highest: 93
+Copy of highest: 93
+Index: 1, value: 93
+After pointer update: 94
+Vector size after growth: 4
+
+Compiler diagnostics:
+/mnt/data/OOP_CPP_Assignment_2_CO2/Task02/Q2.cpp: In function ‘int& danglingReference()’:
+/mnt/data/OOP_CPP_Assignment_2_CO2/Task02/Q2.cpp:44:12: warning: reference to local variable ‘local’ returned [-Wreturn-local-addr]
+   44 |     return local;
+      |            ^~~~~
+/mnt/data/OOP_CPP_Assignment_2_CO2/Task02/Q2.cpp:43:9: note: declared here
+   43 |     int local = 99;
+      |         ^~~~~
